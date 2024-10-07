@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: https://people.epfl.ch/private/common/photos/links/257047.jpg
+  image: jb.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <a href='https://people.epfl.ch/johanni.brea/?lang=en'>Scientist and Lecturer at EPFL</a>
