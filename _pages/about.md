@@ -9,10 +9,10 @@ profile:
   image: jb.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href='https://people.epfl.ch/johanni.brea/?lang=en'>Scientist and Lecturer at EPFL</a>
+    <a href='https://people.epfl.ch/johanni.brea/?lang=en'>Scientist and Lecturer, EPFL</a>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
