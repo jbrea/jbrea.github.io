@@ -11,7 +11,8 @@
  year          = {2021},
  url           = {http://dx.doi.org/10.1038/s41598-020-80515-7},
  volume        = {11},
- html          = {http://dx.doi.org/10.1038/s41598-020-80515-7}
+ html          = {http://dx.doi.org/10.1038/s41598-020-80515-7},
+ abstract      = {Previous research reported that corvids preferentially cache food in a location where no food will be available or cache more of a specific food in a location where this food will not be available. Here, we consider possible explanations for these prospective caching behaviours and directly compare two competing hypotheses. The Compensatory Caching Hypothesis suggests that birds learn to cache more of a particular food in places where that food was less frequently available in the past. In contrast, the Future Planning Hypothesis suggests that birds recall the `what--when--where' features of specific past events to predict the future availability of food. We designed a protocol in which the two hypotheses predict different caching patterns across different caching locations such that the two explanations can be disambiguated. We formalised the hypotheses in a Bayesian model comparison and tested this protocol in two experiments with one of the previously tested species, namely Eurasian jays. Consistently across the two experiments, the observed caching pattern did not support either hypothesis; rather it was best explained by a uniform distribution of caches over the different caching locations. Future research is needed to gain more insight into the cognitive mechanism underpinning corvids' caching for the future.}
 }
 
 @inproceedings{bellecFittingSummaryStatistics2021,
@@ -26,7 +27,8 @@
  year          = {2021},
  url           = {https://proceedings.neurips.cc/paper\_files/paper/2021/file/9a32ff36c65e8ba30915a21b7bd76506-Paper.pdf},
  volume        = {34},
- html          = {https://proceedings.neurips.cc/paper\_files/paper/2021/file/9a32ff36c65e8ba30915a21b7bd76506-Paper.pdf}
+ html          = {https://proceedings.neurips.cc/paper\_files/paper/2021/file/9a32ff36c65e8ba30915a21b7bd76506-Paper.pdf},
+ abstract      = {Fitting network models to neural activity is an important tool in neuroscience. A popular approach is to model a brain area with a probabilistic recurrent spiking network whose parameters maximize the likelihood of the recorded activity. Although this is widely used, we show that the resulting model does not produce realistic neural activity. To correct for this, we suggest to augment the log-likelihood with terms that measure the dissimilarity between simulated and recorded activity. This dissimilarity is defined via summary statistics commonly used in neuroscience and the optimization is efficient because it relies on back-propagation through the stochastically simulated spike trains. We analyze this method theoretically and show empirically that it generates more realistic activity statistics. We find that it improves upon other fitting algorithms for spiking network models like GLMs (Generalized Linear Models) which do not usually rely on back-propagation. This new fitting algorithm also enables the consideration of hidden neurons which is otherwise notoriously hard, and we show that it can be crucial when trying to infer the network connectivity from spike recordings.}
 }
 
 @article{breaComputationalModelsEpisodiclike2023,
@@ -43,7 +45,8 @@
  year          = {2023},
  url           = {http://dx.doi.org/10.1038/s41467-023-38570-x},
  volume        = {14},
- html          = {http://dx.doi.org/10.1038/s41467-023-38570-x}
+ html          = {http://dx.doi.org/10.1038/s41467-023-38570-x},
+ abstract      = {Birds of the crow family adapt food-caching strategies to anticipated needs at the time of cache recovery and rely on memory of the what, where and when of previous caching events to recover their hidden food. It is unclear if this behavior can be explained by simple associative learning or if it relies on higher cognitive processes like mental time-travel. We present a computational model and propose a neural implementation of food-caching behavior. The model has hunger variables for motivational control, reward-modulated update of retrieval and caching policies and an associative neural network for remembering caching events with a memory consolidation mechanism for flexible decoding of the age of a memory. Our methodology of formalizing experimental protocols is transferable to other domains and facilitates model evaluation and experiment design. Here, we show that memory-augmented, associative reinforcement learning without mental time-travel is sufficient to explain the results of 28 behavioral experiments with food-caching birds.}
 }
 
 @article{breaDoesComputationalNeuroscience2016,
@@ -76,17 +79,8 @@
  year          = {2013},
  url           = {http://dx.doi.org/10.1523/jneurosci.4098-12.2013},
  volume        = {33},
- html          = {http://dx.doi.org/10.1523/jneurosci.4098-12.2013}
-}
-
-@article{breaMemoryAugmentedReinforcementLearning2019,
- pdf           = {brea_and_gerstner-2019-a_memory-augmented_reinforcement_learning_model_of.pdf},
- author        = {Brea, Johanni and Gerstner, Wulfram},
- year          = {2019},
- url           = {https://doi.org/10.32470/CCN.2019.1316-0},
- journal       = {2019 Conference on Cognitive Computational Neuroscience},
- html          = {https://doi.org/10.32470/CCN.2019.1316-0},
- title         = {A {{Memory-Augmented Reinforcement Learning Model}} of {{Food Caching Behaviour}} in {{Birds}}}
+ html          = {http://dx.doi.org/10.1523/jneurosci.4098-12.2013},
+ abstract      = {Storing and recalling spiking sequences is a general problem the brain needs to solve. It is, however, unclear what type of biologically plausible learning rule is suited to learn a wide class of spatiotemporal activity patterns in a robust way. Here we consider a recurrent network of stochastic spiking neurons composed of both visible and hidden neurons. We derive a generic learning rule that is matched to the neural dynamics by minimizing an upper bound on the Kullback--Leibler divergence from the target distribution to the model distribution. The derived learning rule is consistent with spike-timing dependent plasticity in that a presynaptic spike preceding a postsynaptic spike elicits potentiation while otherwise depression emerges. Furthermore, the learning rule for synapses that target visible neurons can be matched to the recently proposed voltage-triplet rule. The learning rule for synapses that target hidden neurons is modulated by a global factor, which shares properties with astrocytes and gives rise to testable predictions.}
 }
 
 @misc{breaMLPGradientFlowGoingFlow2023a,
@@ -119,19 +113,21 @@
  year          = {2014},
  url           = {http://dx.doi.org/10.1371/journal.pcbi.1003640},
  volume        = {10},
- html          = {http://dx.doi.org/10.1371/journal.pcbi.1003640}
+ html          = {http://dx.doi.org/10.1371/journal.pcbi.1003640},
+ abstract      = {Recent experiments revealed that the fruit fly Drosophila melanogaster has a dedicated mechanism for forgetting: blocking the G-protein Rac leads to slower and activating Rac to faster forgetting. This active form of forgetting lacks a satisfactory functional explanation. We investigated optimal decision making for an agent adapting to a stochastic environment where a stimulus may switch between being indicative of reward or punishment. Like Drosophila, an optimal agent shows forgetting with a rate that is linked to the time scale of changes in the environment. Moreover, to reduce the odds of missing future reward, an optimal agent may trade the risk of immediate pain for information gain and thus forget faster after aversive conditioning. A simple neuronal network reproduces these features. Our theory shows that forgetting in Drosophila appears as an optimal adaptive behavior in a changing environment. This is in line with the view that forgetting is adaptive rather than a consequence of limitations of the memory system.}
 }
 
 @article{breaPrioritizedSweepingBetter2017,
  pdf           = {brea-2017-is_prioritized_sweeping_the_better_episodic_contro.pdf},
- keywords      = {Computer Science - Artificial Intelligence,Computer Science - Learning},
  author        = {Brea, Johanni},
- year          = {2017},
- url           = {https://arxiv.org/abs/1711.06677},
  month         = {November},
  journal       = {ArXiv e-prints},
+ title         = {Is Prioritized Sweeping the Better Episodic Control?},
+ keywords      = {Computer Science - Artificial Intelligence,Computer Science - Learning},
+ year          = {2017},
+ url           = {https://arxiv.org/abs/1711.06677},
  html          = {https://arxiv.org/abs/1711.06677},
- title         = {Is Prioritized Sweeping the Better Episodic Control?}
+ abstract      = {Episodic control has been proposed as a third approach to reinforcement learning, besides modelfree and model-based control, by analogy with the three types of human memory. i.e. episodic, procedural and semantic memory. But the theoretical properties of episodic control are not well investigated. Here I show that in deterministic tree Markov decision processes, episodic control is equivalent to a form of prioritized sweeping in terms of sample efficiency as well as memory and computation demands. For general deterministic and stochastic environments, prioritized sweeping performs better even when memory and computation demands are restricted to be equal to those of episodic control. These results suggest generalizations of prioritized sweeping to partially observable environments, its combined use with function approximation and the search for possible implementations of prioritized sweeping in brains.}
 }
 
 @article{breaProspectiveCodingSpiking2016,
@@ -149,57 +145,81 @@
  year          = {2016},
  url           = {http://dx.doi.org/10.1371/journal.pcbi.1005003},
  volume        = {12},
- html          = {http://dx.doi.org/10.1371/journal.pcbi.1005003}
+ html          = {http://dx.doi.org/10.1371/journal.pcbi.1005003},
+ abstract      = {Animals learn to make predictions, such as associating the sound of a bell with upcoming  feeding or predicting a movement that a motor command is eliciting. How predictions are realized on the neuronal level and what plasticity rule underlies their learning is not well understood. Here we propose a biologically plausible synaptic plasticity rule to learn predictions on a single neuron level on a timescale of seconds. The learning rule allows a spiking  two-compartment neuron to match its current firing rate to its own expected future discounted firing rate. For instance, if an originally neutral event is repeatedly followed by an  event that elevates the firing rate of a neuron, the originally neutral event will eventually also  elevate the neuron's firing rate. The plasticity rule is a form of spike timing dependent plasticity in which a presynaptic spike followed by a postsynaptic spike leads to potentiation.  Even if the plasticity window has a width of 20 milliseconds, associations on the time scale  of seconds can be learned. We illustrate prospective coding with three examples: learning  to predict a time varying input, learning to predict the next stimulus in a delayed paired-associate task and learning with a recurrent network to reproduce a temporally compressed version of a sequence. We discuss the potential role of the learning mechanism in classical  trace conditioning. In the special case that the signal to be predicted encodes reward, the  neuron learns to predict the discounted future reward and learning is closely related to the  temporal difference learning algorithm TD({$\lambda$}).}
 }
 
 @article{breaRememberingWhenHebbian2022,
  pdf           = {brea_et_al.-2022-remembering_the_“when”_hebbian_memory_models_for.pdf},
- author        = {Brea, Johanni and Modirshanechi, Alireza and Gerstner, Wulfram},
+ author        = {Brea, Johanni and Modirshanechi, Alireza and Iatropoulos, Georgios and Gerstner, Wulfram},
  month         = {November},
  journal       = {bioRxiv},
  title         = {Remembering the ``{{When}}'': {{Hebbian Memory Models}} for the {{Time}} of {{Past Events}}},
  publisher     = {Cold Spring Harbor Laboratory},
  doi           = {10.1101/2022.11.28.518209},
+ code          = {https://github.com/jbrea/RememberingTheWhen.jl},
  year          = {2022},
  url           = {http://dx.doi.org/10.1101/2022.11.28.518209},
- html          = {http://dx.doi.org/10.1101/2022.11.28.518209}
+ html          = {http://dx.doi.org/10.1101/2022.11.28.518209},
+ abstract      = {Humans and animals can remember how long ago specific events happened. In contrast to interval-timing on the order of seconds and minutes, little is known about the neural mechanisms that enable remembering the ``when'' of autobiographical memories stored in the episodic memory system. Based on a systematic exploration of neural coding, association and retrieval schemes, we develop a family of hypotheses about the reconstruction of the time of past events, consistent with Hebbian plasticity in neural networks. We compare several plausible candidate mechanism in simulated experiments and, accordingly, propose how combined behavioral and physiological experiments can be used to pin down the actual neural implementation of the memory for the time of past events.}
 }
 
 @incollection{breaSequenceLearningHidden2011,
  pdf           = {brea_et_al.-2011-sequence_learning_with_hidden_units_in_spiking_neu.pdf},
  pages         = {1422--1430},
- publisher     = {Curran Associates, Inc.},
  booktitle     = {Advances in {{Neural Information Processing Systems}} 24},
  author        = {Brea, Johanni and Senn, Walter and Pfister, Jean-Pascal},
  editor        = {{Shawe-Taylor}, J. and Zemel, R. S. and Bartlett, P. L. and Pereira, F. and Weinberger, K. Q.},
+ title         = {Sequence Learning with Hidden Units in Spiking Neural Networks},
+ publisher     = {Curran Associates, Inc.},
  year          = {2011},
  url           = {http://papers.nips.cc/paper/4383-sequence-learning-with-hidden-units-in-spiking-neural-networks},
  html          = {http://papers.nips.cc/paper/4383-sequence-learning-with-hidden-units-in-spiking-neural-networks},
- title         = {Sequence Learning with Hidden Units in Spiking Neural Networks}
+ abstract      = {We consider a statistical framework in which recurrent networks of spiking neurons learn to generate spatio-temporal spike patterns. Given biologically realistic stochastic neuronal dynamics we derive a tractable learning rule for the synaptic weights towards hidden and visible neurons that leads to optimal recall of the training sequences. We show that learning synaptic weights towards hidden neurons significantly improves the storing capacity of the network. Furthermore, we derive an approximate online learning rule and show that our learning rule is consistent with Spike-Timing Dependent Plasticity in that if a presynaptic spike shortly precedes a postynaptic spike, potentiation is induced and otherwise depression is elicited.}
+}
+
+@misc{breaWeightspaceSymmetryDeep2019,
+ pdf           = {brea_et_al.-2019-weight-space_symmetry_in_deep_networks_gives_rise.pdf},
+ author        = {Brea, Johanni and Simsek, Berfin and Illing, Bernd and Gerstner, Wulfram},
+ month         = {July},
+ archivePrefix = {arXiv},
+ title         = {Weight-Space Symmetry in Deep Networks Gives Rise to Permutation Saddles, Connected by Equal-Loss Valleys across the Loss Landscape},
+ publisher     = {arXiv},
+ number        = {arXiv:1907.02911},
+ doi           = {10.48550/arXiv.1907.02911},
+ keywords      = {Computer Science - Machine Learning,Statistics - Machine Learning},
+ urldate       = {2024-10-28},
+ eprint        = {1907.02911},
+ year          = {2019},
+ url           = {http://arxiv.org/abs/1907.02911},
+ html          = {http://arxiv.org/abs/1907.02911},
+ abstract      = {The permutation symmetry of neurons in each layer of a deep neural network gives rise not only to multiple equivalent global minima of the loss function, but also to first-order saddle points located on the path between the global minima. In a network of \$d-1\$ hidden layers with \$n\_k\$ neurons in layers \$k = 1, {\textbackslash}ldots, d\$, we construct smooth paths between equivalent global minima that lead through a `permutation point' where the input and output weight vectors of two neurons in the same hidden layer \$k\$ collide and interchange. We show that such permutation points are critical points with at least \$n\_\{k+1\}\$ vanishing eigenvalues of the Hessian matrix of second derivatives indicating a local plateau of the loss function. We find that a permutation point for the exchange of neurons \$i\$ and \$j\$ transits into a flat valley (or generally, an extended plateau of \$n\_\{k+1\}\$ flat dimensions) that enables all \$n\_k!\$ permutations of neurons in a given layer \$k\$ at the same loss value. Moreover, we introduce high-order permutation points by exploiting the recursive structure in neural network functions, and find that the number of \$K{\textasciicircum}\{{\textbackslash}text\{th\}\}\$-order permutation points is at least by a factor \${\textbackslash}sum\_\{k=1\}{\textasciicircum}\{d-1\}{\textbackslash}frac\{1\}\{2!{\textasciicircum}K\}\{n\_k-K {\textbackslash}choose K\}\$ larger than the (already huge) number of equivalent global minima. In two tasks, we illustrate numerically that some of the permutation points correspond to first-order saddles (`permutation saddles'): first, in a toy network with a single hidden layer on a function approximation task and, second, in a multilayer network on the MNIST task. Our geometric approach yields a lower bound on the number of critical points generated by weight-space symmetries and provides a simple intuitive link between previous mathematical results and numerical observations.}
 }
 
 @article{colomboAlgorithmicCompositionMelodies2016,
  pdf           = {colombo_et_al.-2016-algorithmic_composition_of_melodies_with_deep_recu.pdf},
- keywords      = {Computer Science - Learning,Statistics - Machine Learning},
  author        = {Colombo, F. and Muscinelli, S. P. and Seeholzer, A. and Brea, J. and Gerstner, W.},
- year          = {2016},
- url           = {https://arxiv.org/abs/1606.07251},
  month         = {June},
  journal       = {ArXiv e-prints},
+ title         = {Algorithmic {{Composition}} of {{Melodies}} with {{Deep Recurrent Neural Networks}}},
+ keywords      = {Computer Science - Learning,Statistics - Machine Learning},
+ year          = {2016},
+ url           = {https://arxiv.org/abs/1606.07251},
  html          = {https://arxiv.org/abs/1606.07251},
- title         = {Algorithmic {{Composition}} of {{Melodies}} with {{Deep Recurrent Neural Networks}}}
+ abstract      = {A big challenge in algorithmic composition is to devise a model that is both easily trainable and able to reproduce the long-range temporal dependencies typical of music. Here we investigate how artificial neural networks can be trained on a large corpus of melodies and turned into automated music composers able to generate new melodies coherent with the style they have been trained on. We employ gated recurrent unit networks that have been shown to be particularly efficient in learning complex sequential activations with arbitrary long time lags. Our model processes rhythm and melody in parallel while modeling the relation between these two features. Using such an approach, we were able to generate interesting complete melodies or suggest possible continuations of a melody fragment that is coherent with the characteristics of the fragment itself.}
 }
 
 @article{colomboLearningGenerateMusic2018,
  pdf           = {colombo_et_al.-2018-learning_to_generate_music_with_bachprop.pdf},
- keywords      = {Computer Science - Machine Learning,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing,Statistics - Machine Learning},
  author        = {Colombo, Florian and Brea, Johanni and Gerstner, Wulfram},
- year          = {2018},
- url           = {https://arxiv.org/abs/1812.06669},
  month         = {December},
  journal       = {arXiv e-prints},
+ title         = {Learning to {{Generate Music}} with {{BachProp}}},
+ keywords      = {Computer Science - Machine Learning,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing,Statistics - Machine Learning},
+ year          = {2018},
+ url           = {https://arxiv.org/abs/1812.06669},
  html          = {https://arxiv.org/abs/1812.06669},
- title         = {Learning to {{Generate Music}} with {{BachProp}}}
+ abstract      = {As deep learning advances, algorithms of music composition increase in performance. However, most of the successful models are designed for specific musical structures. Here, we present BachProp, an algorithmic composer that can generate music scores in many styles given sufficient training data. To adapt BachProp to a broad range of musical styles, we propose a novel representation of music and train a deep network to predict the note transition probabilities of a given music corpus. In this paper, new music scores generated by BachProp are compared with the original corpora as well as with different network architectures and other related models. We show that BachProp captures important features of the original datasets better than other models and invite the reader to a qualitative comparison on a large collection of generated songs.}
 }
 
 @inproceedings{corneilEfficientModelBased2018,
@@ -216,7 +236,8 @@
  year          = {2018},
  url           = {http://proceedings.mlr.press/v80/corneil18a.html},
  volume        = {80},
- html          = {http://proceedings.mlr.press/v80/corneil18a.html}
+ html          = {http://proceedings.mlr.press/v80/corneil18a.html},
+ abstract      = {Modern reinforcement learning algorithms reach super--human performance on many board and video games, but they are sample inefficient, i.e. they typically require significantly more playing experience than humans to reach an equal performance level. To improve sample efficiency, an agent may build a model of the environment and use planning methods to update its policy. In this article we introduce Variational State Tabulation (VaST), which maps an environment with a high--dimensional state space (e.g. the space of visual inputs) to an abstract tabular model. Prioritized sweeping with small backups, a highly efficient planning method, can then be used to update state--action values. We show how VaST can rapidly learn to maximize reward in tasks like 3D navigation and efficiently adapt to sudden changes in rewards or transition probabilities.}
 }
 
 @article{fairbrotherGaussianProcessesjlNonparametricBayes2018,
@@ -226,6 +247,7 @@
  url           = {https://arxiv.org/abs/1812.09064},
  journal       = {arXiv e-prints},
  html          = {https://arxiv.org/abs/1812.09064},
+ abstract      = {Gaussian processes are a class of flexible nonparametric Bayesian tools that are widely used across the sciences, and in industry, to model complex data sources. Key to applying Gaussian process models is the availability of well-developed open source software, which is available in many programming languages. In this paper, we present a tutorial of the GaussianProcesses.jl package that has been developed for the Julia language. GaussianProcesses.jl utilises the inherent computational benefits of the Julia language, including multiple dispatch and just-in-time compilation, to produce a fast, flexible and user-friendly Gaussian processes package. The package provides a range of mean and kernel functions with supporting inference tools to fit the Gaussian process models, as well as a range of alternative likelihood functions to handle non-Gaussian data (e.g. binary classification models). The package makes efficient use of existing Julia packages to provide users with a range of optimization and plotting tools.},
  title         = {{{GaussianProcesses}}.Jl: {{A Nonparametric Bayes}} Package for the {{Julia Language}}}
 }
 
@@ -242,7 +264,8 @@
  year          = {2018},
  url           = {http://dx.doi.org/10.3389/fncir.2018.00053},
  volume        = {12},
- html          = {http://dx.doi.org/10.3389/fncir.2018.00053}
+ html          = {http://dx.doi.org/10.3389/fncir.2018.00053},
+ abstract      = {Most elementary behaviors such as moving the arm to grasp an object or walking into the next room to explore a museum evolve on the time scale of seconds; in contrast, neuronal action potentials occur on the time scale of a few milliseconds. Learning rules of the brain must therefore bridge the gap between these two different time scales. Modern theories of synaptic plasticity have postulated that the co-activation of pre- and postsynaptic neurons sets a flag at the synapse, called an eligibility trace, that leads to a weight change only if an additional factor is present while the flag is set. This third factor, signaling reward, punishment, surprise, or novelty, could be implemented by the phasic activity of neuromodulators or specific neuronal inputs signaling special events. While the theoretical framework has been developed over the last decades, experimental evidence in support of eligibility traces on the time scale of seconds has been collected only during the last few years. Here we review, in the context of three-factor rules of synaptic plasticity, four key experiments that support the role of synaptic eligibility traces in combination with a third factor as a biological implementation of neoHebbian three-factor learning rules.}
 }
 
 @misc{gotmareDecouplingBackpropagationUsing2018,
@@ -252,6 +275,7 @@
  annotation    = {Published: ICML 2018, Efficient Credit Assignment in Deep Learning and Reinforcement Learning Workshop},
  url           = {https://openreview.net/forum?id=BygR79WfWm},
  html          = {https://openreview.net/forum?id=BygR79WfWm},
+ abstract      = {We propose BlockProp, a neural network training algorithm. Unlike backpropagation, it does not rely on direct top-to-bottom propagation of an error signal. Rather, by interpreting backpropagation as a constrained optimization problem we split the neural network model into sets of layers (blocks) that must satisfy a consistency constraint, i.e. the output of one set of layers must be equal to the input of the next. These decoupled blocks are then updated with the gradient of the optimization constraint violation. The main advantage of this formulation is that we decouple the propagation of the error signal on different subparts (blocks) of the network making it particularly relevant for multi-devices applications.},
  title         = {Decoupling {{Backpropagation}} Using {{Constrained Optimization Methods}}}
 }
 
@@ -264,6 +288,7 @@
  url           = {http://dx.doi.org/10.31234/osf.io/evm9n},
  month         = {September},
  html          = {http://dx.doi.org/10.31234/osf.io/evm9n},
+ abstract      = {`Why are we curious?' has been among the central puzzles of neuroscience and psychology in the past decades. A popular hypothesis is that curiosity is driven by intrinsically generated reward signals, which have evolved to support survival in complex environments. To formalize and test this hypothesis, we need to understand the enigmatic relationship between (i) intrinsic rewards (as drives of curiosity), (ii) optimality conditions (as objectives of curiosity), and (iii) environment structures. Here, we demystify this relationship through a systematic simulation study. First, we propose an algorithm to generate environments that capture key abstract features of different real-world situations. Then, we simulate artificial agents that explore these environments by seeking one of the six representative intrinsic rewards: novelty, surprise, information gain, empowerment, MOP, and SPIE. Finally, we evaluate the exploration performance of these simulated agents regarding three potential objectives of curiosity: state discovery, model accuracy, and uniform state visitation. Our results show that the comparative performance of each intrinsic reward is highly dependent on the environmental features and the curiosity objective; this indicates that `optimality' in top-down theories of curiosity needs a precise formulation of assumptions. Nevertheless, we found that agents seeking a combination of novelty and information gain always achieve a close-to-optimal performance. This suggests that novelty and information gain are two principal axes of curiosity-driven behavior. These results pave the way for the further development of computational models of curiosity and the design of theory-informed experimental paradigms.},
  title         = {Merits of Curiosity: A Simulation Study}
 }
 
@@ -278,7 +303,8 @@
  year          = {2022},
  url           = {https://proceedings.neurips.cc/paper{\textbackslash}\_files/paper/2022/file/e55d081280e79e714debf2902e18eb69-Paper-Conference.pdf},
  volume        = {35},
- html          = {https://proceedings.neurips.cc/paper{\textbackslash}\_files/paper/2022/file/e55d081280e79e714debf2902e18eb69-Paper-Conference.pdf}
+ html          = {https://proceedings.neurips.cc/paper{\textbackslash}\_files/paper/2022/file/e55d081280e79e714debf2902e18eb69-Paper-Conference.pdf},
+ abstract      = {We consider the problem of training a neural network to store a set of patterns with maximal noise robustness. A solution, in terms of optimal weights and state update rules, is derived by training each individual neuron to perform either kernel classification or interpolation with a minimum weight norm. By applying this method to feed-forward and recurrent networks, we derive optimal models, termed kernel memory networks, that include, as special cases, many of the hetero- and auto-associative memory models that have been proposed over the past years, such as modern Hopfield networks and Kanerva's sparse distributed memory. We modify Kanerva's model and demonstrate a simple way to design a kernel memory network that can store an exponential number of continuous-valued patterns with a finite basin of attraction. The framework of kernel memory networks offers a simple and intuitive way to understand the storage capacity of previous memory models, and allows for new biological interpretations in terms of dendritic non-linearities and synaptic cross-talk.}
 }
 
 @article{iatropoulosTwofactorSynapticConsolidation2024,
@@ -290,6 +316,7 @@
  url           = {http://dx.doi.org/10.1101/2024.07.23.604787},
  month         = {July},
  html          = {http://dx.doi.org/10.1101/2024.07.23.604787},
+ abstract      = {Memory consolidation involves a process of engram reorganization and stabilization that is thought to occur primarily during sleep through a combination of  neural replay, homeostatic plasticity, synaptic maturation, and pruning. From  a computational perspective, however, this process remains puzzling, as it is  unclear how the underlying mechanisms can be incorporated into a common  mathematical model of learning and memory. Here, we propose a solution by  deriving a consolidation model that uses replay and two-factor synapses to store  memories in recurrent neural networks with sparse connectivity and maximal  noise robustness. The model offers a unified account of experimental observations of consolidation, such as multiplicative homeostatic scaling, task-driven  synaptic pruning, increased neural stimulus selectivity, and preferential strengthening of weak memories. The model further predicts that intrinsic synaptic noise  scales sublinearly with synaptic strength; this is supported by a meta-analysis of  published synaptic imaging datasets.},
  title         = {Two-Factor Synaptic Consolidation Reconciles Robust Memory with Pruning and Homeostatic Scaling}
 }
 
@@ -306,16 +333,8 @@
  year          = {2019},
  url           = {http://dx.doi.org/10.1016/j.neunet.2019.06.001},
  volume        = {118},
- html          = {http://dx.doi.org/10.1016/j.neunet.2019.06.001}
-}
-
-@misc{illingLocalizedRandomProjections2018,
- pdf           = {illing_et_al.-2018-localized_random_projections_challenge_benchmarks.pdf},
- author        = {Illing, Bernd and Gerstner, Wulfram and Brea, Johanni},
- year          = {2018},
- url           = {https://openreview.net/forum?id=SJeT\_oRcY7},
- html          = {https://openreview.net/forum?id=SJeT\_oRcY7},
- title         = {Localized Random Projections Challenge Benchmarks for Bio-Plausible Deep Learning}
+ html          = {http://dx.doi.org/10.1016/j.neunet.2019.06.001},
+ abstract      = {Training deep neural networks with the error backpropagation algorithm is considered implausible from a biological perspective. Numerous recent publications suggest elaborate models for biologically plausible variants of deep learning, typically defining success as reaching around 98\% test accuracy on the MNIST data set. Here, we investigate how far we can go on digit (MNIST) and object (CIFAR10) classification with biologically plausible, local learning rules in a network with one hidden layer and a single readout layer. The hidden layer weights are either fixed (random or random Gabor filters) or trained with unsupervised methods (Principal/Independent Component Analysis or Sparse Coding) that can be implemented by local learning rules. The readout layer is trained with a supervised, local learning rule. We first implement these models with rate neurons. This comparison reveals, first, that unsupervised learning does not lead to better performance than fixed random projections or Gabor filters for large hidden layers. Second, networks with localized receptive fields perform significantly better than networks with all-to-all connectivity and can reach backpropagation performance on MNIST. We then implement two of the networks -- fixed, localized, random \& random Gabor filters in the hidden layer -- with spiking leaky integrate-and-fire neurons and spike timing dependent plasticity to train the readout layer. These spiking models achieve {$>$}98.2\% test accuracy on MNIST, which is close to the performance of rate networks with one hidden layer trained with backpropagation. The performance of our shallow network models is comparable to most current biologically plausible models of deep learning. Furthermore, our results with a shallow spiking network provide an important reference and suggest the use of data sets other than MNIST for testing the performance of future models of biologically plausible deep learning.}
 }
 
 @article{liakoniBrainSignalsSurpriseActorCritic2022,
@@ -351,7 +370,8 @@
  year          = {2021},
  url           = {http://dx.doi.org/10.1162/neco\_a\_01352},
  volume        = {33},
- html          = {http://dx.doi.org/10.1162/neco\_a\_01352}
+ html          = {http://dx.doi.org/10.1162/neco\_a\_01352},
+ abstract      = {Surprise-based learning allows agents to rapidly adapt to nonstationary stochastic environments characterized by sudden changes. We show that exact Bayesian inference in a hierarchical model gives rise to a surprisemodulated trade-off between forgetting old observations and integrating them with the new ones. The modulation depends on a probability ratio, which we call the Bayes Factor Surprise, that tests the prior belief against the current belief. We demonstrate that in several existing approximate algorithms, the Bayes Factor Surprise modulates the rate of adaptation to new observations. We derive three novel surprise-based algorithms, one in the family of particle filters, one in the family of variational learning, and one in the family of message passing, that have constant scaling in observation sequence length and particularly simple update dynamics for any distribution in the exponential family. Empirical results show that these surprise-based algorithms estimate parameters better than alternative approximate approaches and reach levels of performance comparable to computationally more expensive algorithms. The Bayes Factor Surprise is related to but different from the Shannon Surprise. In two hypothetical experiments, we make testable predictions for physiological indicators that dissociate the Bayes Factor Surprise from the Shannon Surprise. The theoretical insight of casting various approaches as surprise-based learning, as well as the proposed online algorithms, may be applied to the analysis of animal and human behavior and to reinforcement learning in nonstationary environments.}
 }
 
 @article{mannaBehavioralIndividualityConsequence2024,
@@ -363,19 +383,58 @@
  url           = {http://dx.doi.org/10.1101/2024.08.30.610528},
  month         = {September},
  html          = {http://dx.doi.org/10.1101/2024.08.30.610528},
+ abstract      = {Learning and memory are thought to be essential for our individual uniqueness and sense of self (1). Yet, individuality is rarely studied in the context of behaviors that depend on learning. While it is established that such behaviors can vary across individuals, it remains unknown whether their variation stems from learning or from classical sources of individuality, the de-velopmental stochasticity, environment and genetics (2--12). To answer this fundamental ques-tion, we measured behavior in thousands of flies in the presence and absence of learning, and compared the extent of their individuality. We discover an excess of non-normally distributed individual behavior only in flies that experienced learning, even though they were genetically identical, raised under the same conditions and exposed to the same environment as the non-learning flies. By tracking each fly's decision-making process, we find that learning does not simply change individual behavior, but it also diversifies it. We could recreate the emergence of this excess of individuality using computer simulations of behaving flies only when we enabled reinforced learning. Although individual experience and genetics shaped behavioral biases, we demonstrated that behavior can diverge due to learning even in individuals that share biases. Our results thus establish learning as the fundamental source of individuality, rather than a phenotypic outcome of genetics, environment, or development.},
  title         = {Behavioral Individuality Is a Consequence of Experience, Genetics and Learning}
+}
+
+@inproceedings{martinelliExpandClusterParameterRecovery2024,
+ pdf           = {martinelli_et_al.-2024-expand-and-cluster_parameter_recovery_of_neural_n.pdf},
+ pages         = {34895--34919},
+ shorttitle    = {Expand-and-{{Cluster}}},
+ booktitle     = {Proceedings of the 41st {{International Conference}} on {{Machine Learning}}},
+ author        = {Martinelli, Flavio and Simsek, Berfin and Gerstner, Wulfram and Brea, Johanni},
+ month         = {July},
+ title         = {Expand-and-{{Cluster}}: {{Parameter Recovery}} of {{Neural Networks}}},
+ publisher     = {PMLR},
+ langid        = {english},
+ issn          = {2640-3498},
+ urldate       = {2024-10-10},
+ year          = {2024},
+ url           = {https://proceedings.mlr.press/v235/martinelli24a.html},
+ html          = {https://proceedings.mlr.press/v235/martinelli24a.html},
+ abstract      = {Can we identify the weights of a neural network by probing its input-output mapping? At first glance, this problem seems to have many solutions because of permutation, overparameterisation and activation function symmetries. Yet, we show that the incoming weight vector of each neuron is identifiable up to sign or scaling, depending on the activation function. Our novel method 'Expand-and-Cluster' can identify layer sizes and weights of a target network for all commonly used activation functions. Expand-and-Cluster consists of two phases: (i) to relax the non-convex optimisation problem, we train multiple overparameterised student networks to best imitate the target function; (ii) to reverse engineer the target network's weights, we employ an ad-hoc clustering procedure that reveals the learnt weight vectors shared between students -- these correspond to the target weight vectors. We demonstrate successful weights and size recovery of trained shallow and deep networks with less than 10\% overhead in the layer size and describe an 'ease-of-identifiability' axis by analysing 150 synthetic problems of variable difficulty.}
+}
+
+@misc{martinelliFlatChannelsInfinity2025,
+ pdf           = {martinelli_et_al.-2025-flat_channels_to_infinity_in_neural_loss_landscape.pdf},
+ primaryClass  = {cs},
+ author        = {Martinelli, Flavio and Meegen, Alexander Van and {\c S}im{\c s}ek, Berfin and Gerstner, Wulfram and Brea, Johanni},
+ month         = {June},
+ archivePrefix = {arXiv},
+ title         = {Flat {{Channels}} to {{Infinity}} in {{Neural Loss Landscapes}}},
+ publisher     = {arXiv},
+ number        = {arXiv:2506.14951},
+ doi           = {10.48550/arXiv.2506.14951},
+ keywords      = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing},
+ urldate       = {2025-08-06},
+ eprint        = {2506.14951},
+ year          = {2025},
+ url           = {http://arxiv.org/abs/2506.14951},
+ html          = {http://arxiv.org/abs/2506.14951},
+ abstract      = {The loss landscapes of neural networks contain minima and saddle points that may be connected in flat regions or appear in isolation. We identify and characterize a special structure in the loss landscape: channels along which the loss decreases extremely slowly, while the output weights of at least two neurons, \$a\_i\$ and \$a\_j\$, diverge to \${\textbackslash}pm\$infinity, and their input weight vectors, \${\textbackslash}mathbf\{w\_i\}\$ and \${\textbackslash}mathbf\{w\_j\}\$, become equal to each other. At convergence, the two neurons implement a gated linear unit: \$a\_i{\textbackslash}sigma({\textbackslash}mathbf\{w\_i\} {\textbackslash}cdot {\textbackslash}mathbf\{x\}) + a\_j{\textbackslash}sigma({\textbackslash}mathbf\{w\_j\} {\textbackslash}cdot {\textbackslash}mathbf\{x\}) {\textbackslash}rightarrow {\textbackslash}sigma({\textbackslash}mathbf\{w\} {\textbackslash}cdot {\textbackslash}mathbf\{x\}) + ({\textbackslash}mathbf\{v\} {\textbackslash}cdot {\textbackslash}mathbf\{x\}) {\textbackslash}sigma'({\textbackslash}mathbf\{w\} {\textbackslash}cdot {\textbackslash}mathbf\{x\})\$. Geometrically, these channels to infinity are asymptotically parallel to symmetry-induced lines of critical points. Gradient flow solvers, and related optimization methods like SGD or ADAM, reach the channels with high probability in diverse regression settings, but without careful inspection they look like flat local minima with finite parameter values. Our characterization provides a comprehensive picture of these quasi-flat regions in terms of gradient dynamics, geometry, and functional interpretation. The emergence of gated linear units at the end of the channels highlights a surprising aspect of the computational capabilities of fully connected layers.}
 }
 
 @article{mesnardDeepLearningSpiking2016,
  pdf           = {mesnard_et_al.-2016-towards_deep_learning_with_spiking_neurons_in_ener.pdf},
- keywords      = {Computer Science - Learning,Computer Science - Neural and Evolutionary Computing,Quantitative Biology - Neurons and Cognition},
  author        = {Mesnard, T. and Gerstner, W. and Brea, J.},
- year          = {2016},
- url           = {https://arxiv.org/abs/1612.03214},
  month         = {December},
  journal       = {ArXiv e-prints},
+ title         = {Towards Deep Learning with Spiking Neurons in Energy Based Models with Contrastive {{Hebbian}} Plasticity},
+ keywords      = {Computer Science - Learning,Computer Science - Neural and Evolutionary Computing,Quantitative Biology - Neurons and Cognition},
+ year          = {2016},
+ url           = {https://arxiv.org/abs/1612.03214},
  html          = {https://arxiv.org/abs/1612.03214},
- title         = {Towards Deep Learning with Spiking Neurons in Energy Based Models with Contrastive {{Hebbian}} Plasticity}
+ abstract      = {In machine learning, error back-propagation in multi-layer neural networks (deep learning) has been impressively successful in supervised and reinforcement learning tasks. As a model for learning in the brain, however, deep learning has long been regarded as implausible, since it relies in its basic form on a non-local plasticity rule. To overcome this problem, energy-based models with local contrastive Hebbian learning were proposed and tested on a classification task with networks of rate neurons. We extended this work by implementing and testing such a model with networks of leaky integrate-and-fire neurons. Preliminary results indicate that it is possible to learn a non-linear regression task with hidden layers, spiking neurons and a local synaptic plasticity rule.}
 }
 
 @article{modirshanechiTaxonomySurpriseDefinitions2022,
@@ -391,7 +450,27 @@
  year          = {2022},
  url           = {http://dx.doi.org/10.1016/j.jmp.2022.102712},
  volume        = {110},
- html          = {http://dx.doi.org/10.1016/j.jmp.2022.102712}
+ html          = {http://dx.doi.org/10.1016/j.jmp.2022.102712},
+ abstract      = {Surprising events trigger measurable brain activity and influence human behavior by affecting learning, memory, and decision-making. Currently there is, however, no consensus on the definition of surprise. Here we identify 18 mathematical definitions of surprise in a unifying framework. We first propose a technical classification of these definitions into three groups based on their dependence on an agent's belief, show how they relate to each other, and prove under what conditions they are indistinguishable. Going beyond this technical analysis, we propose a taxonomy of surprise definitions and classify them into four conceptual categories based on the quantity they measure: (i) `prediction surprise' measures a mismatch between a prediction and an observation; (ii) `change-point detection surprise' measures the probability of a change in the environment; (iii) `confidence-corrected surprise' explicitly accounts for the effect of confidence; and (iv) `information gain surprise' measures the belief-update upon a new observation. The taxonomy poses the foundation for principled studies of the functional roles and physiological signatures of surprise in the brain.}
+}
+
+@article{mombelliAuditoryStimuliSuppress2024,
+ pdf           = {mombelli_et_al.-2024-auditory_stimuli_suppress_contextual_fear_response.pdf},
+ author        = {Mombelli, Elena and Osypenko, Denys and Palchaudhuri, Shriya and Sourmpis, Christos and Brea, Johanni and Kochubey, Olexiy and Schneggenburger, Ralf},
+ month         = {October},
+ journal       = {Frontiers in Behavioral Neuroscience},
+ title         = {Auditory Stimuli Suppress Contextual Fear Responses in Safety Learning Independent of a Possible Safety Meaning},
+ publisher     = {Frontiers},
+ doi           = {10.3389/fnbeh.2024.1415047},
+ keywords      = {auditory-cued fear memory,Contextual fear memory,external inhibition,fear learning,freezing behavior,Safety learning,startle response,Valence},
+ langid        = {english},
+ issn          = {1662-5153},
+ urldate       = {2024-10-31},
+ year          = {2024},
+ url           = {https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2024.1415047/full},
+ volume        = {18},
+ html          = {https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2024.1415047/full},
+ abstract      = {{$<$}p{$>$}Safety learning allows the identification of non-threatening situations, a learning process instrumental for survival and psychic health. In contrast to fear learning, in which a sensory cue (conditioned stimulus, CS) is temporally linked to a mildly aversive stimulus (US), safety learning is studied by presenting the CS and US in an explicitly unpaired fashion. This leads to conditioned inhibition of fear responses, in which sensory cues can acquire a safety meaning (CS-). In one variant of safety learning, an auditory CS- was shown to reduce contextual fear responses during recall, as measured by freezing of mice. Here, we performed control experiments to test whether auditory stimuli might interfere with freezing by mechanisms other than safety learning, a phenomenon also called external inhibition. Surprisingly, when auditory stimulation was omitted during training (US-only controls), such stimuli still significantly suppressed contextual freezing during recall, indistinguishable from the reduction of freezing after regular safety training. The degree of this external inhibition was positively correlated with the levels of contextual freezing preceding the auditory stimulation. Correspondingly, in fear learning protocols which employ a new context during recall and therefore induce lower contextual freezing, auditory stimuli did not induce significant external inhibition. These experiments show that in safety learning protocols that employ contextual freezing, the freezing reduction caused by auditory stimuli during recall is dominated by external inhibition, rather than by learned safety. Thus, in safety learning experiments extensive controls should be performed to rule out possible intrinsic effects of sensory cues on freezing behavior.{$<$}/p{$>$}}
 }
 
 @article{muscinelliExponentiallyLongOrbits2017,
@@ -408,26 +487,26 @@
  year          = {2017},
  url           = {http://dx.doi.org/10.1162/NECO\_a\_00919},
  volume        = {29},
- html          = {http://dx.doi.org/10.1162/NECO\_a\_00919}
+ html          = {http://dx.doi.org/10.1162/NECO\_a\_00919},
+ abstract      = {We show that Hopfield neural networks with synchronous dynamics and asymmetric weights admit stable orbits that form sequences of maximal length. For N units, these sequences have length T = 2{\textasciicircum}N; that is, they cover the full state space. We present a mathematical proof that maximallength orbits exist for all N, and we provide a method to construct both the sequence and the weight matrix that allow its production. The orbit is relatively robust to dynamical noise, and perturbations of the optimal weights reveal other periodic orbits that are not maximal but typically still very long. We discuss how the resulting dynamics on slow timescales can be used to generate desired output sequences.}
 }
 
-@misc{schmutzEmergentRatebasedDynamics2024,
- pdf           = {schmutz_et_al.-2024-emergent_rate-based_dynamics_in_duplicate-free_pop.pdf},
- primaryClass  = {q-bio},
+@article{schmutzEmergentRateBasedDynamics2025,
+ pdf           = {schmutz_et_al.-2025-emergent_rate-based_dynamics_in_duplicate-free_pop.pdf},
+ pages         = {018401},
  author        = {Schmutz, Valentin and Brea, Johanni and Gerstner, Wulfram},
- month         = {May},
- archivePrefix = {arXiv},
- title         = {Emergent Rate-Based Dynamics in Duplicate-Free Populations of Spiking Neurons},
- publisher     = {arXiv},
- number        = {arXiv:2303.05174},
- doi           = {10.48550/arXiv.2303.05174},
- keywords      = {Quantitative Biology - Neurons and Cognition},
- urldate       = {2024-10-01},
- eprint        = {2303.05174},
- year          = {2024},
- url           = {http://arxiv.org/abs/2303.05174},
- html          = {http://arxiv.org/abs/2303.05174},
- abstract      = {Can Spiking Neural Networks (SNNs) approximate the dynamics of Recurrent Neural Networks (RNNs)? Arguments in classical mean-field theory based on laws of large numbers provide a positive answer when each neuron in the network has many "duplicates", i.e. other neurons with almost perfectly correlated inputs. Using a disordered network model that guarantees the absence of duplicates, we show that duplicate-free SNNs can converge to RNNs, thanks to the concentration of measure phenomenon. This result reveals a general mechanism underlying the emergence of rate-based dynamics in large SNNs.}
+ month         = {January},
+ journal       = {Physical Review Letters},
+ title         = {Emergent {{Rate-Based Dynamics}} in {{Duplicate-Free Populations}} of {{Spiking Neurons}}},
+ publisher     = {American Physical Society},
+ number        = {1},
+ doi           = {10.1103/PhysRevLett.134.018401},
+ urldate       = {2025-01-24},
+ year          = {2025},
+ url           = {https://link.aps.org/doi/10.1103/PhysRevLett.134.018401},
+ volume        = {134},
+ html          = {https://link.aps.org/doi/10.1103/PhysRevLett.134.018401},
+ abstract      = {Can spiking neural networks (SNNs) approximate the dynamics of recurrent neural networks? Arguments in classical mean-field theory based on laws of large numbers provide a positive answer when each neuron in the network has many ``duplicates'', i.e., other neurons with almost perfectly correlated inputs. Using a disordered network model that guarantees the absence of duplicates, we show that duplicate-free SNNs can converge to recurrent neural networks, thanks to the concentration of measure phenomenon. This result reveals a general mechanism underlying the emergence of rate-based dynamics in large SNNs.}
 }
 
 @article{sennNeuronsThatRemember2015,
@@ -444,7 +523,8 @@
  year          = {2015},
  url           = {http://dx.doi.org/10.1016/j.neuron.2015.01.029},
  volume        = {85},
- html          = {http://dx.doi.org/10.1016/j.neuron.2015.01.029}
+ html          = {http://dx.doi.org/10.1016/j.neuron.2015.01.029},
+ abstract      = {In this issue of Neuron, Daie et al. (2015) show that the eye velocity-to-position neural integrator not only encodes the position, but also how it was reached. Representing content and context in the same neuronal population may form a general coding principle.}
 }
 
 @inproceedings{simsekGeometryLossLandscape2021,
@@ -460,7 +540,8 @@
  year          = {2021},
  url           = {https://proceedings.mlr.press/v139/simsek21a.html},
  volume        = {139},
- html          = {https://proceedings.mlr.press/v139/simsek21a.html}
+ html          = {https://proceedings.mlr.press/v139/simsek21a.html},
+ abstract      = {We study how permutation symmetries in overparameterized multi-layer neural networks generate `symmetry-induced' critical points. Assuming a network with L layers of minimal widths r1{$\ast$}, . . . , r{$\ast$}L-1 reaches a zero-loss minimum at r1{$\ast$}! {$\cdot$} {$\cdot$} {$\cdot$} r{$\ast$}L-1! isolated points that are permutations of one another, we show that adding one extra neuron to each layer is sufficient to connect all these previously discrete minima into a single manifold. For a two-layer overparameterized network of width r{$\ast$} + h =: m we explicitly describe the manifold of global minima: it consists of T (r{$\ast$}, m) affine subspaces of dimension at least h that are connected to one another. For a network of width m, we identify the number G(r, m) of affine subspaces containing only symmetry-induced critical points that are related to the critical points of a smaller network of width r {$<$} r{$\ast$}. Via a combinatorial analysis, we derive closed-form formulas for T and G and show that the number of symmetry-induced critical subspaces dominates the number of affine subspaces forming the global minima manifold in the mildly overparameterized regime (small h) and vice versa in the vastly overparameterized regime (h r{$\ast$}). Our results provide new insights into the minimization of the non-convex loss function of overparameterized neural networks.}
 }
 
 @inproceedings{simsekShouldParameterizedStudent2023,
@@ -470,6 +551,7 @@
  year          = {2023},
  url           = {https://openreview.net/forum?id=MG0mYskXN2},
  html          = {https://openreview.net/forum?id=MG0mYskXN2},
+ abstract      = {Any continuous function f  can be approximated arbitrarily well by a neural network with sufficiently many neurons k. We consider the case when f  itself is a neural network with one hidden layer and k neurons. Approximating f  with a neural network with n {$<$} k neurons can thus be seen as fitting an under-parameterized ``student'' network with n neurons to a ``teacher'' network with k neurons. As the student has fewer neurons than the teacher, it is unclear, whether each of the n student neurons should copy one of the teacher neurons or rather average a group of teacher neurons. For shallow neural networks with erf activation function and for the standard Gaussian input distribution, we prove that ``copy-average'' configurations are critical points if the teacher's incoming vectors are orthonormal and its outgoing weights are unitary. Moreover, the optimum among such configurations is reached when n - 1 student neurons each copy one teacher neuron and the n-th student neuron averages the remaining k - n + 1 teacher neurons. For the student network with n = 1 neuron, we provide additionally a closed-form solution of the non-trivial critical point(s) for commonly used activation functions through solving an equivalent constrained optimization problem. Empirically, we find for the erf activation function that gradient flow converges either to the optimal copy-average critical point or to another point where each student neuron approximately copies a different teacher neuron. Finally, we find similar results for the ReLU activation function, suggesting that the optimal solution of underparameterized networks has a universal structure.},
  title         = {Should {{Under-parameterized Student Networks Copy}} or {{Average Teacher Weights}}?}
 }
 
@@ -489,7 +571,8 @@
  year          = {2020},
  url           = {http://dx.doi.org/10.1371/journal.pcbi.1007640},
  volume        = {16},
- html          = {http://dx.doi.org/10.1371/journal.pcbi.1007640}
+ html          = {http://dx.doi.org/10.1371/journal.pcbi.1007640},
+ abstract      = {The idea that the brain functions so as to minimize certain costs pervades theoretical  neuroscience. Because a cost function by itself does not predict how the brain finds its minima, additional assumptions about the optimization method need to be made to predict the  dynamics of physiological quantities. In this context, steepest descent (also called gradient  descent) is often suggested as an algorithmic principle of optimization potentially implemented by the brain. In practice, researchers often consider the vector of partial derivatives  as the gradient. However, the definition of the gradient and the notion of a steepest direction  depend on the choice of a metric. Because the choice of the metric involves a large number  of degrees of freedom, the predictive power of models that are based on gradient descent  must be called into question, unless there are strong constraints on the choice of the metric.  Here, we provide a didactic review of the mathematics of gradient descent, illustrate common pitfalls of using gradient descent as a principle of brain function with examples from the  literature, and propose ways forward to constrain the metric.}
 }
 
 @article{vianoNeuralNIDRules2022,
@@ -503,5 +586,6 @@
  keywords      = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
  year          = {2022},
  url           = {https://arxiv.org/abs/2202.06036},
- html          = {https://arxiv.org/abs/2202.06036}
+ html          = {https://arxiv.org/abs/2202.06036},
+ abstract      = {Abstract object properties and their relations are deeply rooted in human common sense, allowing people to predict the dynamics of the world even in situations that are novel but governed by familiar laws of physics. Standard machine learning models in model-based reinforcement learning are inadequate to generalize in this way. Inspired by the classic framework of noisy indeterministic deictic (NID) rules, we introduce here Neural NID, a method that learns abstract object properties and relations between objects with a suitably regularized graph neural network. We validate the greater generalization capability of Neural NID on simple benchmarks specifically designed to assess the transition dynamics learned by the model.}
 }
